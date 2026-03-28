@@ -1,17 +1,18 @@
-# martirez_scanner
+# SariScan - Barcode Scanner & Inventory App
 
-A new Flutter project.
+SariScan is a Flutter mobile app that allows users to scan product barcodes, view product details, and manage an inventory stored in Supabase. It is designed for small businesses or personal inventory tracking.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Barcode Scanning**: Quickly scan product barcodes using the device camera.
+- **Product Details**: Instantly see product name, price, and stock after scanning.
+- **Add Products**: Upload new products to the inventory via Supabase.
+- **Edit Products**: Update product information including name, price, stock, and image.
+- **Search Inventory**: Easily search products by name in the inventory list.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter: Cross-platform mobile development.
+- Supabase: Backend database for storing product information.
+- Google Fonts: Custom app typography.
+- Mobile Scanner: Barcode scanning functionality.
